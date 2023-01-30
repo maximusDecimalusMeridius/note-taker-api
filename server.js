@@ -6,6 +6,12 @@ app.use(express.urlencoded({extended: true}));
 
 app.use(express.static("public"));
 
+const notesController = require("./controllers/notesController");
+app.use(notesController);
+
+const apiController = require("./controllers/apiController");
+app.use(apiController);
+
 app.listen(3001, function() {
-    console.log("Server Started on Port 3000");
+    console.log("Server Started on Port 3001");
 })
