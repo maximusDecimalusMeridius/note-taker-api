@@ -12,7 +12,7 @@ router.get("/", (req, res) => {
             throw(error);
         } else {
             notesData = JSON.parse(data);
-            res.send(notesData);
+            res.json(notesData);
         }
     })
 })
