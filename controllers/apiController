@@ -31,6 +31,8 @@ router.post("/api/notes", (req, res) => {
                 if(error){
                     res.status(500).send("Error writing file");
                     throw(error);
+                } else {
+                    res.status(200).send("New note added!");
                 }
             })
         }
