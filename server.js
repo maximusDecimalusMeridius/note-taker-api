@@ -11,7 +11,7 @@ const notesController = require("./controllers/notesController");
 app.use(notesController);
 
 const apiController = require("./controllers/apiController");
-app.use(apiController);
+app.use("/api/notes", apiController);
 
 app.get("/*", (req, res) => {
     res.sendFile(path.join(__dirname, "/public/index.html"))
