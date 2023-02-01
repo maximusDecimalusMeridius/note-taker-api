@@ -2,16 +2,16 @@
     {
         "id": "9cbfd45b-e0bd-45f8-9c61-518d4ad8fc60",
         "title": "Note 1",
-        "text": "Note 1"
+        "text": "This is note #1"
+    },
+    {
+        "id": "8bc5c2e6-af08-40c9-bffc-fc550db63d73",
+        "title": "Note 2",
+        "text": "This is note #2"
     },
     {
         "id": "005921e0-806b-4024-9c63-c45bfdae0a06",
         "title": "Note 3",
-        "text": "Note 3"
-    },
-    {
-        "id": "48716eb1-99f8-4cdb-8dd4-a0683e10e3bb",
-        "title": "Note 2",
-        "text": "Note 2"
-    }
+        "text": "This is note #3"
+    }    
 ]
