@@ -2,7 +2,7 @@
 
 ## Description
 
-This challenge was to create an application called Note Taker that can be used to write and save notes with unique IDs.  It uses Express.js for the backend, and retrieving notes datafrom a JSON file.  The front-end was created, but I built the backend, connected the two and deployed it to Heroku.
+This challenge was to create an application called Note Taker that can be used to write and save notes with unique IDs.  It uses Express.js for the backend and retrieves notes data from a server-side JSON file.  The front-end code was cloned but I built the backend, connected the two, and deployed it to Heroku.
 
 ### User Story
 ```
